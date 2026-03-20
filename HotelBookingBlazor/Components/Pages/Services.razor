@@ -1,4 +1,18 @@
-﻿<h3>Services</h3>
+﻿@page "/services"
+
+@layout InnerPageLayout
+
+<PageTitle>
+    Services
+</PageTitle>
+
+<Microsoft.AspNetCore.Components.Sections.SectionContent SectionName="PageName">
+    Our Services
+</Microsoft.AspNetCore.Components.Sections.SectionContent>
+
+<ServicesSection />
+
+<Testimonials />
 
 @code {
 

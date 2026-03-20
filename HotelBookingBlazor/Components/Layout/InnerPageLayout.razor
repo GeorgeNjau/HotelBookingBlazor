@@ -1,0 +1,20 @@
+﻿@inherits LayoutComponentBase
+
+@layout MainLayout
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-1.jpg);">
+    <div class="container-fluid page-header-inner py-5">
+        <div class="container pb-5 text-center">
+            <h1 class="display-3 animated slideInDown mb-3 text-white">
+                <Microsoft.AspNetCore.Components.Sections.SectionOutlet SectionName="PageName"/>
+            </h1>
+            
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+
+<BookingSmall />
+
+@Body
